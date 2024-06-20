@@ -1,20 +1,6 @@
-.evergreen-button-wrap {
-    margin-top: 10px;
-    text-align: center;
-}
-
-#evergreen-button {
-    background-color: #ccc;
-    color: #000;
-    padding: 5px 10px;
-    border-radius: 3px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-#evergreen-button.evergreen-active {
-    background-color: #4caf50;
-    color: #fff;
+.evergreen-active {
+    background-color: #4caf50 !important;
+    color: #fff !important;
 }
 
 .evergreen-indicator {
