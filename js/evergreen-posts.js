@@ -1,7 +1,5 @@
 jQuery(document).ready(function($) {
-    $('#evergreen-button').click(function() {
-        $(this).toggleClass('evergreen-active');
-        var buttonText = $(this).hasClass('evergreen-active') ? 'Evergreen' : 'Evergreen';
-        $(this).text(buttonText);
+    $('#evergreen-post').change(function() {
+        $(this).closest('.misc-pub-section').toggleClass('evergreen-active', this.checked);
     });
 });
