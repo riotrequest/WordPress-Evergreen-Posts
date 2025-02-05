@@ -1,8 +1,10 @@
-.evergreen-active {
+/* Highlight the evergreen section when active */
+.misc-pub-evergreen.evergreen-active {
     background-color: #4caf50 !important;
     color: #fff !important;
 }
 
+/* Style the evergreen indicator in the posts list */
 .evergreen-indicator {
     display: inline-block;
     padding: 2px 6px;
