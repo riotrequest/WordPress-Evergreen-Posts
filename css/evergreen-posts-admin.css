@@ -1,0 +1,44 @@
+/**
+ * Admin styles for Evergreen Posts plugin
+ */
+
+/* Settings page styling */
+.evergreen-posts-admin-heading {
+    margin-bottom: 20px;
+}
+
+/* Status indicators */
+.evergreen-status-indicator.active {
+    color: #4caf50;
+}
+
+.evergreen-status-indicator.inactive {
+    color: #f44336;
+}
+
+/* Clean up settings page layout */
+.form-table th {
+    width: 200px;
+}
+
+/* Dashboard styles */
+.dashicons-yes {
+    vertical-align: middle;
+}
+
+.dashicons-no {
+    vertical-align: middle;
+}
+
+/* Make sure threshold inputs don't get too wide */
+input[type="number"] {
+    width: 100px;
+}
+
+/* Styling for the manual run section */
+.manual-run-section {
+    background: #f9f9f9;
+    padding: 15px;
+    border-left: 4px solid #4caf50;
+    margin-top: 20px;
+}
