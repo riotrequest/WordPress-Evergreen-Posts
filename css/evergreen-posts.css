@@ -12,3 +12,13 @@
     color: #fff;
     border-radius: 3px;
 }
+
+/* Style the dashicons checkmark in the posts column */
+.evergreen-indicator.dashicons {
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    padding: 0;
+    background-color: transparent;
+    color: #4caf50;
+}
